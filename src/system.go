@@ -353,7 +353,7 @@ func createStreamingURL(streamingType, playlistID, channelNumber, channelName, u
 		}
 	}
 
-	streamingURL = fmt.Sprintf("%s://%s/stream/%s", serverProtocol, System.Domain, streamInfo.URLid)
+	streamingURL = url
 	return
 }
 
